@@ -28,5 +28,9 @@ namespace KonyvtarWinFormos_EcsediTamas_14SL
             Published_year = published_year;
             Title = title;
         }
+        public override string ToString()
+        {
+            return $"Id:{id} - Szerző: {author} - Cím: {title} - {published_year} év - {page_count} oldal";
+        }
     }
 }

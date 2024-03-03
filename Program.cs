@@ -8,6 +8,7 @@ namespace KonyvtarWinFormos_EcsediTamas_14SL
 {
     internal static class Program
     {
+        public static Adatbazis databazis = new Adatbazis();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
